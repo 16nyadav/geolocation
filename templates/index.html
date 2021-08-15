@@ -1,0 +1,12 @@
+<html>
+    <head></head>
+    <body>
+    <img src="{{ url_for('static', filename = 'Moskow.jpg') }}" alt="Moskow" width="300px" height="300px">
+    <br>
+    Enter the address from the Moscow which is in the MKAD region
+    <form action="http://localhost:5000/distance" method="post">
+        <label>Address from Moscow</label>
+        <input type="text" name="address">`
+    </form> 
+    </body>
+</html>
